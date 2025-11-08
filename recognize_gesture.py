@@ -17,12 +17,7 @@ class GestureRecognizer:
         self.COOLDOWN_SECONDS = cooldown
 
     def detect_gesture(self, image):
-        """
-        Takes a single image (frame) and processes it.
-        Returns:
-            1. An "action" string: "NEXT", "PREV", or "NONE"
-            2. The image, annotated with drawings.
-        """
+     
         
       
         action = "NONE"
